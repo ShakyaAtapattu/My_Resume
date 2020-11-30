@@ -28,6 +28,12 @@ h6 {
   color: #333;
 }
 
+h5 {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+}
+
 /* Paragraph & Typographic */
 
 p {
@@ -184,12 +190,14 @@ SECTION WRAPS
 
 #headerwrap h1 {
   font-size: 70px;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
 }
 
 #headerwrap h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
+  font-weight: 500;
 }
 
 /* Intnro Wrap */
@@ -201,9 +209,15 @@ SECTION WRAPS
   color: white;
 }
 
-#intro h5,
-p {
+#intro h5 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#intro p {
   color: white;
+  font-weight: 200;
 }
 
 #intro i {
@@ -211,6 +225,16 @@ p {
   font-size: 20px;
   padding-right: 8px;
   vertical-align: middle;
+}
+
+#resume h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#work h5 {
+  font-weight: 700;
+  font-size: 16px;
 }
 
 #skillswrap {
@@ -222,6 +246,10 @@ p {
 
 #skillswrap h5,
 p {
+  color: rgb(255, 255, 255);
+}
+
+#skillswrap p {
   color: rgb(255, 255, 255);
 }
 
@@ -241,11 +269,12 @@ p {
 
 #footwrap t {
   font-weight: 700;
+  color: rgb(130, 197, 199);
 }
 
 #footwrap i {
   padding-right: 8px;
-  color: #1abc9c;
+  color: #ffffff;
 }
 
 /* Copyright Wrap */
@@ -298,7 +327,7 @@ sm {
 /* Contact Form */
 
 .contact-form label {
-  color: #999;
+  color: rgb(175, 173, 173);
 }
 
 .contact-form input,
