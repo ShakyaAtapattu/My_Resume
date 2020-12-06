@@ -317,13 +317,15 @@ sm {
 
 .contact-form .form-send {
   text-align: center;
+  font-weight: bold;
+  color: #fff;
 }
 
 .contact-form .form-send button {
   background: #44bbaa;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.4s;
   cursor: pointer;
 }
