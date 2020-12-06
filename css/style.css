@@ -277,24 +277,6 @@ p {
   color: #ffffff;
 }
 
-/* Copyright Wrap */
-
-#copyrights {
-  background: #222222;
-  padding: 20px 0;
-  text-align: center;
-  color: #fff;
-  font-size: 16px;
-}
-
-#copyrights p {
-  margin: 0 0 5px 0;
-}
-
-.credits {
-  color: #999;
-}
-
 /* Global Values */
 
 .desc {
